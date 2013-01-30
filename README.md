@@ -13,7 +13,7 @@
 ## Install
     $ gem install stepper-instrument
 
-### Example
+## Example
     require 'stepper-instrument'
 
     Stepper.daemon_hostport = "127.0.0.1:8889"
@@ -25,7 +25,7 @@
     Stepper.step("STEPPER.UUID", 20, "/var/opt/stepper.log")
     Stepper.stepup("STEPPER.UUID", 1, "/var/opt/stepper.log")
 
-### Executable
+## Executable
 
 스텝 등록하기
 
