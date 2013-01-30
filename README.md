@@ -25,6 +25,10 @@
     Stepper.step("STEPPER.UUID", 20, "/var/opt/stepper.log")
     Stepper.stepup("STEPPER.UUID", 1, "/var/opt/stepper.log")
 
+파일에 쌓인것 보내기
+
+    # remote_syslog -d [host] -p [port] [file_path] 
+
 ## Executable
 
 스텝 등록하기
