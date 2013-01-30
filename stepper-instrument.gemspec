@@ -11,7 +11,9 @@ Gem::Specification.new do |s|
   s.homepage = 'https://github.com/kssminus/stepper-instrument.git'
   s.files = ['lib/stepper-instrument.rb']
 
+
   s.add_runtime_dependency 'remote_syslog', '~> 1.6.13'  # for file feed
-  
+  s.executables << 'step' << 'stepup'
+
   s.required_ruby_version = '>= 1.9.2'
 end

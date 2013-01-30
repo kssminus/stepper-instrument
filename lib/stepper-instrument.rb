@@ -24,7 +24,7 @@ module Stepper
       end
 
       def stepup(key, delta = 1, file = nil)
-        write(key, delta, :su, nil, file)
+        write(key, delta, :su, file)
       end
 
       protected
